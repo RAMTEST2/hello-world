@@ -51,4 +51,13 @@ object Form1: TForm1
     OnClick = HideClick
     BSTagId = 0
   end
+  object btnNewButton: TBSButton
+    Left = 72
+    Top = 88
+    Width = 75
+    Height = 25
+    Caption = 'NewButton'
+    TabOrder = 2
+    BSTagId = 0
+  end
 end
