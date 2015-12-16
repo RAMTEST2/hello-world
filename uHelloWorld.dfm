@@ -1,0 +1,44 @@
+object Form1: TForm1
+  Left = 751
+  Top = 627
+  Width = 344
+  Height = 181
+  Caption = 'Form1'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object BSLabel1: TBSLabel
+    Left = 72
+    Top = 24
+    Width = 54
+    Height = 13
+    Caption = 'Hello World'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    ShowAccelChar = False
+    Transparent = True
+    BSHintId = 0
+    BSTagId = 0
+    BSTagStrip = True
+  end
+  object BSButton1: TBSButton
+    Left = 72
+    Top = 56
+    Width = 75
+    Height = 25
+    Caption = 'Display Msg'
+    TabOrder = 0
+    OnClick = BSButton1Click
+    BSTagId = 0
+  end
+end
