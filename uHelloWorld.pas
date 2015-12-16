@@ -11,6 +11,7 @@ type
     BSLabel1: TBSLabel;
     BSButton1: TBSButton;
     Hide: TBSButton;
+    btnNewButton: TBSButton;
     procedure BSButton1Click(Sender: TObject);
     procedure HideClick(Sender: TObject);
   private
