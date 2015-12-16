@@ -51,7 +51,6 @@ object Form1: TForm1
     OnClick = HideClick
     BSTagId = 0
   end
-<<<<<<< HEAD
   object ManageData: TBSButton
     Left = 72
     Top = 96
@@ -60,7 +59,6 @@ object Form1: TForm1
     Caption = 'ManageData'
     TabOrder = 2
     OnClick = ManageDataClick
-=======
   object btnNewButton: TBSButton
     Left = 72
     Top = 88
@@ -68,7 +66,6 @@ object Form1: TForm1
     Height = 25
     Caption = 'NewButton'
     TabOrder = 2
->>>>>>> refs/remotes/origin/master
     BSTagId = 0
   end
 end
