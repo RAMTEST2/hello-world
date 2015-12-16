@@ -11,8 +11,10 @@ type
     BSLabel1: TBSLabel;
     BSButton1: TBSButton;
     Hide: TBSButton;
+    ManageData: TBSButton;
     procedure BSButton1Click(Sender: TObject);
     procedure HideClick(Sender: TObject);
+    procedure ManageDataClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -35,6 +37,11 @@ procedure TForm1.HideClick(Sender: TObject);
 begin
   BSButton1.Visible := False;
   BSButton1.Visible := False;
+end;
+
+procedure TForm1.ManageDataClick(Sender: TObject);
+begin
+  ShowMessage('Hello, how are you?');
 end;
 
 end.
