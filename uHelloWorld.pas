@@ -10,7 +10,9 @@ type
   TForm1 = class(TForm)
     BSLabel1: TBSLabel;
     BSButton1: TBSButton;
+    Hide: TBSButton;
     procedure BSButton1Click(Sender: TObject);
+    procedure HideClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -27,6 +29,12 @@ implementation
 procedure TForm1.BSButton1Click(Sender: TObject);
 begin
   ShowMessage(BSLabel1.Caption);
+end;
+
+procedure TForm1.HideClick(Sender: TObject);
+begin
+  BSButton1.Visible := False;
+  BSButton1.Visible := False;
 end;
 
 end.

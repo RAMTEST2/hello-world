@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 751
-  Top = 627
+  Left = 713
+  Top = 485
   Width = 344
   Height = 181
   Caption = 'Form1'
@@ -39,6 +39,16 @@ object Form1: TForm1
     Caption = 'Display Msg'
     TabOrder = 0
     OnClick = BSButton1Click
+    BSTagId = 0
+  end
+  object Hide: TBSButton
+    Left = 160
+    Top = 56
+    Width = 81
+    Height = 25
+    Caption = 'Hide'
+    TabOrder = 1
+    OnClick = HideClick
     BSTagId = 0
   end
 end
