@@ -11,7 +11,11 @@ type
     BSLabel1: TBSLabel;
     BSButton1: TBSButton;
     Hide: TBSButton;
+<<<<<<< HEAD
     ManageData: TBSButton;
+=======
+    btnNewButton: TBSButton;
+>>>>>>> refs/remotes/origin/master
     procedure BSButton1Click(Sender: TObject);
     procedure HideClick(Sender: TObject);
     procedure ManageDataClick(Sender: TObject);
